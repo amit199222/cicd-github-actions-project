@@ -1,0 +1,9 @@
+name: Build, test and deploy reach app
+on: push
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: check out the code
+              uses: actions/checkout@v6
+              
